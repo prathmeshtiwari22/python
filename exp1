@@ -1,0 +1,21 @@
+print(" welcome to calculator :")
+firstnum =input("enter the first number")
+secondnum =input(" enter the second number")
+
+
+sum=int(firstnum)+ int(secondnum)
+
+sub=int(firstnum)-int(secondnum)
+
+mul=int(firstnum)*int(secondnum)
+
+div=int(firstnum)/int(secondnum)
+
+expo=int(firstnum)**int(secondnum)
+
+
+print("the sum is", sum)
+print("the sub is", sub)
+print(" the mul is", mul)
+print(" the div is", div)
+print(" the expo is", expo)
