@@ -1,0 +1,41 @@
+
+
+CODE :
+
+class Student():
+    def __init__(self,n,m):
+        self.name=n
+        self.marks=m
+       
+    def grade(self):
+        print("Student Name: ",self.name)
+        if self.marks>60 : print("GRADE IS A")
+        elif (self.marks>50) : print("GRADE IS B")
+        elif (self.marks>40) : print("GRADE IS C")
+        else : print("fail")
+q=int(input("ENTER NUMBER OF STUDENT :"))
+for i in range(q):      
+  n1=input("ENTER THE NAME OF THE STUDENT :")
+  n2=int(input("ENTER THE MARKS OBTAINED BY THE STUDENT :"))
+  s1=Student(n1,n2)
+  s1.grade()
+
+OUTPUT :
+ENTER NUMBER OF STUDENT :4
+ENTER THE NAME OF THE STUDENT :dheeraj
+ENTER THE MARKS OBTAINED BY THE STUDENT :35
+Student Name:  dheeraj
+fail
+ENTER THE NAME OF THE STUDENT :prathmesh
+ENTER THE MARKS OBTAINED BY THE STUDENT :89
+Student Name:  prathmesh
+GRADE IS A
+ENTER THE NAME OF THE STUDENT :vedant
+ENTER THE MARKS OBTAINED BY THE STUDENT :89
+Student Name:  vedant
+GRADE IS A
+ENTER THE NAME OF THE STUDENT :siddhesh
+ENTER THE MARKS OBTAINED BY THE STUDENT :35
+Student Name:  siddhesh
+fail
+
