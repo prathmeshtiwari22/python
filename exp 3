@@ -1,0 +1,47 @@
+print("EXPERIMENT NO.3")
+# list
+l=[ ]
+# ADDING ELEMENTS IN THE LIST
+l.append(5)
+l.append(10)
+l.append("how are you")
+print("Adding 5 and 10 in list",l)
+# REMOVING ELEMENT FROM THE LIST
+l.pop()
+print("Popped one element from list",l)
+print()
+# set
+s=set()
+# ADDING ELEMENT IN THE LIST
+s.add(5)
+s.add(10)
+s.add("hi")
+print("Adding 5 and 10 in set",s)
+# REMOVING ELEMENT FROM THE LIST
+s.remove(5)
+print("REMOVING 5 FROM SET",s)
+# turple
+t =tuple(l)
+# TURPLES ARE IMMUTABLE
+print("TURPLE",t)
+# dictionary
+d= { }
+# ADDING THE KEY VALUE PAIR
+d[5]="FIVE"
+d[10]="TEN"
+d[2]=3
+print("DICTIONARY",d)
+
+# REMOVING KEY VALUE PAIR
+del d[5]
+print(" DICTIONARY",d)
+
+OUTPUT :
+Adding 5 and 10 in list [5, 10, 'how are you']
+Popped one element from list [5, 10]
+
+Adding 5 and 10 in set {'hi', 10, 5}
+REMOVING 5 FROM SET {'hi', 10}
+TURPLE (5, 10)
+DICTIONARY {5: 'FIVE', 10: 'TEN', 2: 3}
+ DICTIONARY {10: 'TEN', 2: 3}
