@@ -1,0 +1,24 @@
+CODE :
+
+def Factorial(n):
+    fact=1
+    if n==1 :
+        fact=1
+    else :
+        for i in range(1,n+1):
+            fact=fact*i
+            print("THE FACTORIAL OF {} IS {}".format(i,fact))
+    return fact
+n=int(input("the number for which factorial you wanted :"))
+s=Factorial(n)
+print(" the factorial of the number {} is {} ".format(n,s))
+
+OUTPUT:
+the number for which factorial you wanted :5
+THE FACTORIAL OF 1 IS 1
+THE FACTORIAL OF 2 IS 2
+THE FACTORIAL OF 3 IS 6
+THE FACTORIAL OF 4 IS 24
+THE FACTORIAL OF 5 IS 120
+the factorial of the number 5 is 120 
+
